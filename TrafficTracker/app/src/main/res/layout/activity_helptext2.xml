@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Helptext2">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="425dp"
+        android:layout_height="754dp"
+        android:background="@color/colorAccent"
+        android:padding="50dp"
+        android:text="TextView"
+        app:fontFamily="sans-serif-condensed-medium"
+        tools:text="Welcome to our app! You can either update or check the event information. For updating, you will be asked to fill out information about upcoming events. Please do help, your helping will give somebody else an incentive to help. When checking a map will be displayed which will show events near the route to your destination. You can plan accordingly. Verified sources are verified by most of our users while the others are not. PLease do keep that in mind." />
+</android.support.constraint.ConstraintLayout>
